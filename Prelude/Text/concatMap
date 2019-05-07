@@ -11,6 +11,8 @@ Examples:
 = ""
 ```
 -}
+
+
     let concatMap
         : ∀(a : Type) → (a → Text) → List a → Text
         =   λ(a : Type)
