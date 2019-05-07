@@ -10,7 +10,9 @@ Examples:
 ./concatMap Natural (λ(n : Natural) → "${Natural/show n} ") ([] : List Natural)
 = ""
 ```
+
 -}
+
     let concatMap
         : ∀(a : Type) → (a → Text) → List a → Text
         =   λ(a : Type)
